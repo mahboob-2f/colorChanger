@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>color changer </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="bg-[#0d0319]">
+
+    <nav class="bg-[#443627] flex p-4 justify-center space-x-4  ">
+        <a class=" button1 text-2xl bg-gray-300 px-12 py-2 border  rounded-md outline-slate-600
+          transition-all duration-200 font-medium font-serif  max-mobile:px-4 max-mobile:py-2 max-mobile:text-lg max-mobile:flex max-mobile:items-center " href=".">Home</a>
+        <a class="button2 text-2xl bg-gray-300 px-12 py-2 border  rounded-md outline-slate-600
+         transition-all duration-200 font-medium font-serif capitalize  max-mobile:px-4 max-mobile:py-2 max-mobile:text-lg max-mobile:flex max-mobile:items-center" href="#">contact us</a>
+    </nav>
+
+    <!--    main section  -->
+
+    <section class="relative top-22 max-w-[1080px] mx-auto">
+        <h1 class=" capitalize font-serif text-2xl text-amber-100 text-center ">Color Scheme Switcher</h1>
+
+        <div class="relative top-[60px] flex flex-wrap max-w-[420px] mx-auto space-x-6 space-y-3  justify-center">
+            <div class="box w-[100px] h-[100px] bg-[white] max-mobile:w-[80px] max-mobile:h-[80px] border-[2px]" id="white"></div>
+            <div class="box w-[100px] h-[100px] bg-[green] max-mobile:w-[80px] max-mobile:h-[80px] border-[2px]" id="green"></div>
+            <div class="box w-[100px] h-[100px] bg-[blue] max-mobile:w-[80px] max-mobile:h-[80px] border-[2px]" id="blue"></div>
+            <div class="box w-[100px] h-[100px] bg-[red] max-mobile:w-[80px] max-mobile:h-[80px] border-[2px]" id="red"></div>
+            <div class="box w-[100px] h-[100px] bg-[pink] max-mobile:w-[80px] max-mobile:h-[80px] border-[2px]" id="pink"></div>
+        </div>
+
+        <p class= "relative top-[90px] text-center text-3xl max-w-[500px] mx-auto  capitalize font-serif text-amber-100
+            max-mobile:text-xl
+        ">Try clicking on one of the colors above , to change the background color of the page !!</p>
+    </section>
+
+    <script src="./index.js"></script>
+</body>
+
+</html>
